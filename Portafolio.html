@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio - Gabriel Muise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h1>Bienvenido a mi Portafolio</h1>
+            <p>Soy Gabriel Muise. Estoy terminando la carrera Tecnicatura Superior en Desarrollo y Análisis de Aplicaciones.</p>
+            <a href="#contacto" class="cta-button">Contáctame</a>
+        </section>
+
+        <section id="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <p>Empecé a estudiar una carrera orientada en programación. Aprendí a desarrollar páginas web con HTML, CSS y PHP, y también aplicaciones en C# y Java, con base de datos sabiendo SQL y LINQ.</p>
+        </section>
+
+        <section id="portafolio">
+            <h2>Mis Proyectos</h2>
+            <div class="proyecto">
+                <img src="./Resources/Proyecto.png" alt="Proyecto 1" class="proyecto-imagen">
+                <h3>Restaurante</h3>
+                <p>Este proyecto fue creado en Java con una estructura MVC y una base de datos en MySQL.</p>
+                <a href="https://github.com/gabymuise/TitoRestobar.git" class="proyecto-link">Proyecto en GitHub</a>
+            </div>
+        </section>
+
+        <section id="experiencia">
+            <h2>Mi Experiencia</h2>
+            <ul>
+                <li>
+                    <h3>Sin experiencia laboral</h3>
+                </li>
+                <li>
+                    <h3>Experiencia en la práctica profesionalizante</h3>
+                    <p>Gestin es un sistema de administración para institutos superiores de la provincia de Buenos Aires desarrollado por estudiantes del tercer año de la carrera de Técnico Superior en Análisis, Desarrollo y Programación de Aplicaciones del ISFT N° 194 de la ciudad de Miramar, partido de General Alvarado. Su desarrollo inició a principios del año 2022 y pretende ser un software de código abierto.</p>
+                    <a href="https://gitlab.com/gmauro2010/Gestin" class="proyecto-link">En GitLab</a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2>Contáctame</h2>
+            <form id="contactForm">
+                <input type="text" id="nombre" placeholder="Nombre" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <textarea id="mensaje" placeholder="Mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Gabriel Muise. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
